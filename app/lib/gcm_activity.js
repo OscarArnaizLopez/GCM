@@ -17,8 +17,8 @@
             title : intent.getStringExtra('title'),
             message : intent.getStringExtra('message')
         };
-        Ti.API.error("********************** This is the title in gcm_activity " + intent.getStringExtra('title'));
-        Ti.API.error("********************** This is the title in gcm_activity " + intent.getStringExtra('message'));
+        console.log("********************** This is the title in gcm_activity " + intent.getStringExtra('title'));
+        console.log("********************** This is the message in gcm_activity " + intent.getStringExtra('message'));
     }
 
 

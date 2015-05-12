@@ -27,14 +27,14 @@ function doRegister() {
         },
         unregister : function(ev) {
             // on unregister
-            Talert('******* unregister, ' + ev.deviceToken);
+            alert('******* unregister, ' + ev.deviceToken);
         },
         data : function(data) {
             // if we're here is because user has clicked on the notification
             // and we set extras in the intent
             // and the app WAS RUNNING (=> RESUMED)
             // (again don't worry, we'll see more of this later)
-            Ti.API.error('******* data (resumed) ' + JSON.stringify(data));
+
             alert('******* data (resumed) ' + JSON.stringify(data));
         }
     });
