@@ -1,18 +1,12 @@
-Welcome to your Appcelerator Titanium Mobile Project
+# gcm.js
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+**gcm.js** is an open source module for Titanium Android SDK that lets developers receive GCM push notifications in their Android apps.
+Working example of GCM push notifications for Titanium (Alloy)
+Full based on work done by jordi Domenech More info at:
+[http://iamyellow.net/post/40100981563/gcm-appcelerator-titanium-module](http://iamyellow.net/post/40100981563/gcm-appcelerator-titanium-module)
 
 
 
-----------------------------------
-Stuff our legal folk make us say:
+## License
 
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
-
+Apache License, Version 2.0
