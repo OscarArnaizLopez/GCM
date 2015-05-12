@@ -47,7 +47,7 @@
         </splash>
         <theme>default</theme>
     </mobileweb>
-    <property name="GCM_sender_id" type="string">813833118169</property>
+    <property name="GCM_sender_id" type="string">YOUR_ID_PROJECT_FROM_GOOGLE_DEV_HERE</property>
     <modules>
         <module platform="android" version="0.2">net.iamyellow.gcmjs</module>
     </modules>
